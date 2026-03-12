@@ -41,14 +41,6 @@
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»
 
-![alt text](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/1.png)
-
-![alt text](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/2.png)
-
-![alt text](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/3.png)
-
-![alt text](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/4.png)
-
  ---
 
 ### Задание 2
@@ -61,13 +53,6 @@
 4. Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera
 5. Прикрепите за каждым хостом шаблон Linux by Zabbix Agent
 6. Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
-
-![alt text](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/5.png)
-
-![alt text](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/6.png)
-
-![alt text](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/7.png)
-
 
 #### Требования к результату
 - [ ] Результат данного задания сдавайте вместе с заданием 3
@@ -82,6 +67,8 @@
 2. Зайдите в настройки каждого хоста и в разделе Templates прикрепите к этому хосту ваш шаблон
 3. Так же к каждому хосту привяжите шаблон Linux by Zabbix Agent
 4. Проверьте что в раздел Latest Data начали поступать необходимые данные из вашего шаблона
+
+
 
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот страницы хостов, где будут видны привязки шаблонов с названиями «Задание 2-3». Хосты должны иметь зелёный статус подключения
