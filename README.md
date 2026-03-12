@@ -41,12 +41,11 @@
 Скриншот-1 к заданию 1:
 ![Скриншот-1](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/1.png)
 
-Скриншот-2 к заданию 1:
-![Скриншот-2](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/2.png)
-
-Скриншот-3 к заданию 1:
-![Скриншот-3](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/3.png)
-
+в конфиге (/etc/zabbix/zabbix_agentd.conf) агента на VM были изменены и добавлены UserParameter 
+```
+UserParameter=custom.cpu.usage, top -bn1 | grep "Cpu(s)" | awk '{print 100 - $8}' 
+UserParameter=custom.memory.usage, free | grep Mem | awk '{print ($3/$2)*100}'
+```
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»
 
@@ -77,7 +76,12 @@
 3. Так же к каждому хосту привяжите шаблон Linux by Zabbix Agent
 4. Проверьте что в раздел Latest Data начали поступать необходимые данные из вашего шаблона
 
-
+Скриншот-2 к заданию 2-3:
+![Скриншот-2](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/2.png)
+Скриншот-2 к заданию 2-3:
+![Скриншот-3](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/3.png)
+Скриншот-2 к заданию 2-3:
+![Скриншот-4](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/4.png)
 
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот страницы хостов, где будут видны привязки шаблонов с названиями «Задание 2-3». Хосты должны иметь зелёный статус подключения
