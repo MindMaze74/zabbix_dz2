@@ -49,12 +49,11 @@
 
 ![alt text](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/4.png)
 
-![alt text](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/5.png)
  ---
 
 ### Задание 2
 Добавьте в Zabbix два хоста и задайте им имена <фамилия и инициалы-1> и <фамилия и инициалы-2>. Например: ivanovii-1 и ivanovii-2.
-1
+
 #### Процесс выполнения
 1. Выполняя ДЗ сверяйтесь с процессом отражённым в записи лекции.
 2. Установите Zabbix Agent на 2 виртмашины, одной из них может быть ваш Zabbix Server
@@ -62,6 +61,13 @@
 4. Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera
 5. Прикрепите за каждым хостом шаблон Linux by Zabbix Agent
 6. Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
+
+![alt text](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/5.png)
+
+![alt text](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/6.png)
+
+![alt text](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/7.png)
+
 
 #### Требования к результату
 - [ ] Результат данного задания сдавайте вместе с заданием 3
