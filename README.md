@@ -42,7 +42,7 @@
 ![Скриншот-1](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/1.png)
 
 Скриншот-2 к заданию 1:
-![Скриншот-2](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/2png)
+![Скриншот-2](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/2.png)
 
 Скриншот-3 к заданию 1:
 ![Скриншот-3](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/3.png)
