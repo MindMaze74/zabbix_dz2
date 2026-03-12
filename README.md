@@ -41,7 +41,7 @@
 Скриншот-1 к заданию 1:
 ![Скриншот-1](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/1.png)
 
-в конфиге (/etc/zabbix/zabbix_agentd.conf) агента на VM были изменены и добавлены UserParameter 
+в конфиге (/etc/zabbix/zabbix_agentd.conf) агентов на VM были изменены и добавлены UserParameter 
 ```
 UserParameter=custom.cpu.usage, top -bn1 | grep "Cpu(s)" | awk '{print 100 - $8}' 
 UserParameter=custom.memory.usage, free | grep Mem | awk '{print ($3/$2)*100}'
@@ -103,7 +103,8 @@ UserParameter=custom.memory.usage, free | grep Mem | awk '{print ($3/$2)*100}'
 1. Выполняя ДЗ сверяйтесь с процессом отражённым в записи лекции.
 2. В разделе Dashboards создайте новый дашборд
 3. Разместите на нём несколько графиков на ваше усмотрение.
-
+Скриншот-8 к заданию 4:
+![Скриншот-8](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/8.png)
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот дашборда с названием «Задание 4»
 
@@ -116,6 +117,8 @@ UserParameter=custom.memory.usage, free | grep Mem | awk '{print ($3/$2)*100}'
 1. Настройте между хостами линк.
 2. Привяжите к линку триггер, связанный с agent.ping одного из хостов, и установите индикатором сработавшего триггера красную пунктирную линию.
 3. Выключите хост, чей триггер добавлен в линк. Дождитесь срабатывания триггера.
+
+![Скриншот-9](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/11.png)
 
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот карты, где видно, что триггер сработал, с названием «Задание 5» 
