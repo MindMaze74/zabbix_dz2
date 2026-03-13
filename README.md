@@ -151,6 +151,14 @@ UserParameter=custom.memory.usage, free | grep Mem | awk '{print ($3/$2)*100}'
 ### Задание 8* со звёздочкой
 
 Настройте автообнаружение и прикрепление к хостам созданного вами ранее шаблона.
+Скриншот-10 к заданию 8:
+![Скриншот-10](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/12.png)
+
+Скриншот-11 к заданию 8:
+![Скриншот-11](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/13.png)
+
+Скриншот-12 к заданию 8:
+![Скриншот-12](https://github.com/MindMaze74/zabbix_dz2/blob/main/img/14.png)
 
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот правила обнаружения, а также скриншот страницы Discover, где видны оба хоста.*
